@@ -1,0 +1,259 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    /* background-color: rgb(138, 245, 245); */
+}
+.wrapper{
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: black 1px 1px 10px ;
+}
+.header{
+    width: inherit;
+    height: auto;
+    box-shadow: rgba(121, 121, 121, 0.751) 2px 2px 4px;
+}
+.logo{
+    height: 100px;
+    width: 250px;
+}
+
+.logo>img{
+    width: 100px;
+    height: inherit;
+}
+.search{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid rgb(166, 159, 157);
+    /* flex-direction: row-reverse; */
+}
+.search>input[type=text]{
+    width:370px;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+}
+.menulist{
+    width: auto;
+    height: 100px;
+    padding:  0 10px;
+}
+.login>img{
+    width: 20px;
+    height: 20px;
+}
+.menulink{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.flex{
+    display: flex;
+}
+.fd-col{
+    flex-direction: column;
+}
+.js-sb{
+    justify-content: space-between;
+}
+.jc-c{
+    justify-content:center;
+}
+.ac-c{
+    align-content:center;
+}
+.ls-none{
+    list-style: none;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.m-0{
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+a{
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(157, 157, 157)
+}
+.m-auto{
+    margin: auto;
+}
+.login{
+    height: 100px;
+    width: 100px;
+    /* background-color: rebeccapurple; */
+}
+.content2{
+    width: inherit;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.content1{
+    width: inherit;
+    height: 400px;
+    /* background-color: red; */
+    background-image: url(https:\\picsum.photos/1200/400);
+    border-image-repeat:stretch;
+
+}
+
+.btnlr{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(232, 226, 226, 0.5);
+    border: hidden;
+    border-radius: 4px;
+    font-size: xx-large;
+    color: rgb(116, 116, 116);
+}
+.ai-c{
+    align-items: center;
+}
+.search-btn>img{
+    height: 20px;
+    width: 20px;
+}
+.search-btn{
+    height: inherit;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+}
+.search-btn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+  .login-btn, .signup-btn{
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none !important;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.login-btn:hover{
+    background-color: rgb(114, 190, 245);
+    transform: scale(1.25);
+}
+.signup-btn:hover{
+    background-color: rgb(237, 145, 145);
+    transform: scale(1.25);
+  }
+.leftcol{
+    width: 15%;
+    /* background-color: aqua; */
+}
+.filterlist{
+    display: none;
+}
+.filteradd{
+    padding-right: 5px ;
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.filteradd:hover{
+    transform: scale(2);
+}
+.jc-sa{
+    justify-content: space-around;
+}
+
+.midcol{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    /* row-gap: 20px; */
+}
+.midcol>:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+.mid-bestdeals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 30px;
+
+    row-gap: 20px;
+}
+
+.mid-bestdeals>div{
+    border-radius: 10px;
+}
+
+.rightcol{
+    width: 15%;
+
+}
+
+.collectionadd{
+    border: none;
+    background-color: transparent;
+}
+.collectionadd:hover{
+    transform: scale(1.5);
+}
+.collectionlist{
+    display: none;
+    margin: 0;
+}
+.collectionlist>ul>li{
+    margin: 0;
+}
+.char>button{
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 1200px ;
+    padding: 5px;
+    border: #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    background-image: url("./cart.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+}
+.char>button:hover{
+    opacity: 1;
+}
+button{
+    background: rgba(188, 184, 184, 0.176);
+    border: none;
+}
+.totop>a>button{
+    height: 50px;
+    width: 50px;
+    left: 1200px;
+    top: 500px;
+    border-radius: 5px;
+    position: fixed;
+}
+.totop>a>button>h1{
+    color: rgb(82, 82, 82);
+}
+.filterby, .collection{
+    margin: 10px;
+}
